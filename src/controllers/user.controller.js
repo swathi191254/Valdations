@@ -26,10 +26,6 @@ router.post(
     ),
 
 
-
- 
-
-
   body("age").custom((value) => {
     // value = 1900
     const isNumber = /^[0-9]*$/.test(value); // true or false
